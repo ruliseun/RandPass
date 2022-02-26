@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+body{
+    background: #1C1C1C;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: auto;
+    width: auto;
+    text-align: center;
+    background: #ECFDF5;
+}
+
+.hero-section h1{
+    text-align: left;
+    margin-left: 52px;
+    color: #273549;
+    padding-top: 110px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.span-h1{
+    color:#10B981;
+}
+
+.hero-section p{
+    color: #6B7280;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 52px;
+    margin-top: -10px;
+}
+
+button{
+    align-content: left;
+    background: #10B981;
+    padding: 12px 25px;
+    float: left;
+    margin: 30px 250px 30px 52px;
+    border-style: none;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+
+.clr{
+    clear: both;
+}
+
+
+#line{
+    border-bottom: 1px solid #D5D4D8;
+    margin-right: auto;
+    margin-left: 52px;
+}
+
+.display{
+    background: #273549;
+    margin: 10px 52px;
+    padding: 10px 100px;
+    border-style: none;
+    border-radius: 6px;
+}
+
+.buttom{
+    margin-bottom: 100px;
+}
+
+.display-area{
+    float:left
+}
+
+.display-area input{
+    color: #5DEF92;
+    font-weight:500;
+    padding: 20px;
+
+}
+
+@media only screen and (max-width: 600px){
+    
+    .display{
+        background: #273549;
+        margin-left: 52px;
+        padding: 10px 10px;
+        border-style: none;
+        border-radius: 6px;
+        display: block;
+    }
+}
